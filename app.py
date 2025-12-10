@@ -77,7 +77,7 @@ def get_sales_data(prod_code, store_code, data_ini, data_fim):
         return pd.DataFrame()
 
 # Filtros
-st.sidebar.header("🔍 Filtros Dinâmicos")
+st.sidebar.header("Filtros Dinâmicos")
 
 # Opções
 df_map = catalogo()
